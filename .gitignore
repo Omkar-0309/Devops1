@@ -1,0 +1,15 @@
+# Ignore system files
+.DS_Store
+Thumbs.db
+
+# Ignore logs and temporary files
+*.log
+*.tmp
+temp/
+
+# SECURITY: Ignore secrets (NEVER COMMIT THESE)
+.env
+password.txt
+*.pem
+aws_config.ini
+id_rsa
