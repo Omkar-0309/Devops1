@@ -13,3 +13,7 @@ password.txt
 *.pem
 aws_config.ini
 id_rsa
+
+# Ignore backup files
+*.bak
+*.bk
